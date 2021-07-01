@@ -8,7 +8,7 @@ a) Using original unmodified images as feature vectors.
 b) Normalizing feature vectors to unit norm L2.
 
 2) kNN retrieval is performed on features, using standard non-learned distance metrics.
-3) Histogram of pixel intensities are used as the feature representations and standard non-learned distance metrics are used to evaluate the performance.
+3) Histogram of pixel intensities are used as the feature representations and standard non-learned distance metrics are used to evaluate the performance.
 4) Mahalanobis distance metric is implemented.
 5) Dimensionality reduction with PCA and LDA on feature
 vectors is performed.
