@@ -27,4 +27,4 @@ vectors is performed.
 feature vectors.
 - Softmax probabilities of inverse distances to cluster centres are used as the vector representation.
 - Fisher vectors from GMM is obtained.
-4) Results are reported for representations from 4.a, 4.b and 4.c.
+4) Results are reported for representations from 3.a, 3.b and 3.c.
