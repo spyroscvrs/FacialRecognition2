@@ -4,8 +4,8 @@ The aim of the project is to use various metrics and data representations for fa
 
 ## Section 1 - Distance Metrics 
 1) Data Preparation 
-a) Using original unmodified images as feature vectors.
-b) Normalizing feature vectors to unit norm L2.
+- Using original unmodified images as feature vectors.
+- Normalizing feature vectors to unit norm L2.
 
 2) kNN retrieval is performed on features, using standard non-learned distance metrics.
 3) Histogram of pixel intensities are used as the feature representations and standard non-learned distance metrics are used to evaluate the performance.
@@ -19,12 +19,12 @@ vectors is performed.
 
 ## Section 2 - Cluster based representations
 1) Clustering.
-a) k-means clustering is implemented.
-b) Agglomerative clustering is implemented.
+- k-means clustering is implemented.
+- Agglomerative clustering is implemented.
 2) Clustering is performed on the test data. A method is proposes and implemented to assign label to the cluster
 3) New representation of images is obtained using Fisher vectors
-a) Cluster centres are used as a codebook and then vectors of distances to the cluster centres as
+- Cluster centres are used as a codebook and then vectors of distances to the cluster centres as
 feature vectors.
-b) Softmax probabilities of inverse distances to cluster centres are used as the vector representation.
-c) Fisher vectors from GMM is obtained.
+- Softmax probabilities of inverse distances to cluster centres are used as the vector representation.
+- Fisher vectors from GMM is obtained.
 4) Results are reported for representations from 4.a, 4.b and 4.c.
